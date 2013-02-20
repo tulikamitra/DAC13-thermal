@@ -1,0 +1,68 @@
+\documentclass{sig-alternate}
+\usepackage{graphicx, tabularx, amssymb, amsmath}
+\usepackage{subfigure}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{url}
+\usepackage{flushend}
+\usepackage{multirow}
+
+\begin{document}
+
+\title{Energy-Aware Synthesis of Application Specific MPSoCs }
+
+\maketitle
+
+\begin{abstract}
+
+Application specifc multi-processor system on chip (MPSoC) can be used to execute streaming applications in a pipelined manner. Each processing element (PE) in the pipeline can be customized depending on the target constraints imposed by the system designer leading to an heterogenous system.
+ 
+The processing elements can be customized by adding application-specific custom instructions set, selecting appropriate cache configurations and by setting different voltage and frequency. In this paper, we propose a framework to synthesize an heterogeneous application specific MPSoC for the target streaming application. Our framework optimizes for the total energy consumption provided the pipeline period constraint and the silicon area budget. We obtain the optimal points with an efficient branch and bound algorithm. Our results show that the optimally configured ASIP MPSoC by our method acheives significant energy reduction compared to the conventional techniques. 
+
+
+%We also compare our technique with the traditional two staged approach on optimizing the %energy. Our technique acheives on an average x \% reduction in energy compared to the %conventional approaches. 
+
+
+\end{abstract}
+
+\input{introduction}
+
+\input{related_work}
+
+%\input{motivational_example}
+
+\input{problem_formulation}
+
+\input{proposed_framework}
+
+\input{experimental_setup}
+
+\input{results_discussion}
+
+\input{conclusion}
+
+
+
+
+%
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+%\bibliographystyle{abbrv}
+%\bibliography{sigproc}  % sigproc.bib is the name of the Bibliography in this case
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+%
+% ACM needs 'a single self-contained file'!
+%
+%APPENDICES are optional
+%\balancecolumns
+
+%\end{document}
+%\scriptsize{
+\bibliographystyle{plain}
+\bibliography{bibl}
+%}
+\end{document}

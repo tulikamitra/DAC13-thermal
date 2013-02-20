@@ -1,0 +1,53 @@
+\begin{thebibliography}{1}
+
+\bibitem{general_mapping}
+Anne Benoit and Yves Robert.
+\newblock Mapping pipeline skeletons onto heterogeneous platforms.
+\newblock In Yong Shi, Geert van Albada, Jack Dongarra, and Peter Sloot,
+  editors, {\em Computational Science – ICCS 2007}, volume 4487 of {\em
+  Lecture Notes in Computer Science}, pages 591--598. Springer Berlin /
+  Heidelberg, 2007.
+
+\bibitem{mem_en2}
+David Brooks, Vivek Tiwari, and Margaret Martonosi.
+\newblock Wattch: a framework for architectural-level power analysis and
+  optimizations.
+\newblock {\em SIGARCH Comput. Archit. News}, 28(2):83--94, May 2000.
+
+\bibitem{energy_asip}
+Seungrok Jung, Jungsoo Kim, Sangkwon Na, and Chong-Min Kyung.
+\newblock Energy-aware instruction-set customization for real-time embedded
+  multiprocessor systems.
+\newblock In {\em Proceedings of the 14th ACM/IEEE international symposium on
+  Low power electronics and design}, ISLPED '09, pages 335--338, New York, NY,
+  USA, 2009. ACM.
+
+\bibitem{mem_en1}
+Uming Ko, Poras~T. Balsara, and Ashwini~K. Nanda.
+\newblock Energy optimization of multi-level processor cache architectures.
+\newblock In {\em Proceedings of the 1995 international symposium on Low power
+  design}, ISLPED '95, pages 45--49, New York, NY, USA, 1995. ACM.
+
+\bibitem{energy_custom}
+Hai Lin and Yunsi Fei.
+\newblock Exploring custom instruction synthesis for application-specific
+  instruction set processors with multiple design objectives.
+\newblock In {\em Proceedings of the 16th ACM/IEEE international symposium on
+  Low power electronics and design}, ISLPED '10, pages 141--146, New York, NY,
+  USA, 2010. ACM.
+
+\bibitem{pipeline}
+Seng~Lin Shee, Andrea Erdos, and Sri Parameswaran.
+\newblock Heterogeneous multiprocessor implementations for jpeg:: a case study.
+\newblock In {\em Proceedings of the 4th international conference on
+  Hardware/software codesign and system synthesis}, CODES+ISSS '06, pages
+  217--222, New York, NY, USA, 2006. ACM.
+
+\bibitem{sun_asip}
+Fei Sun, N.K. Jha, S.~Ravi, and A.~Raghunathan.
+\newblock Synthesis of application-specific heterogeneous multiprocessor
+  architectures using extensible processors.
+\newblock In {\em VLSI Design, 2005. 18th International Conference on}, pages
+  551 -- 556, jan. 2005.
+
+\end{thebibliography}
